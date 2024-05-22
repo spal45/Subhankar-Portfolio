@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQ.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <a href="index.html"><img src="image/logo.png" /></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#skills">SKILLS</a></li>
+              <li><a href="#project">PROJECTS</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+
+    <div class="heroImage" id="home" >
+        <div class="tagLine">Elevating ideas into seamless digital solutions, with precision and creativity.</div>
+        <div class="introcont">
+            <div class="intro">
+                <div class="hello">Hello I'm</div>
+                <div class="name">Subhankar Pal</div>
+                <div class="developer">Front End Developer</div>
+                <button id="previewButton" class="resume">RESUME</button> 
+            </div>
+        </div>    
+    </div>
+
+    <!-- about me -->
+
+    <div class="aboutMe" id="about">
+        <div class="aboutHeading">ABOUT ME</div>
+        <div class="aboutArea">    
+            <div class="sec1">
+                <div class="aboutPara">Hello! I'm Subhankar Pal. With a grasp of HTML, CSS, JavaScript, and Java, I specialize in creating captivating websites. My passion lies in designing user-friendly interfaces and ensuring seamless functionality to deliver exceptional online experiences.</div>
+                <img src="image/profilepic.jpg" class="profilepic" alt="">
+            </div>
+        </div>
+    
+        <div class="aboutArea2">
+        <div class="education">EDUCATION</div>
+            <div class="eduSec">
+                <div class="degree">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div class="institute">
+                            <div class="collageName">Dhole Patil College Of Engineering, Pune</div>
+                            <div class="educationDetails">Bachelor of Engineering(Mechanical)</div>
+                            <div class="date">Aug 19 - Jul 23</div>                          
+                        </div>
+                </div>
+                <div class="degree">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div class="institute">
+                            <div class="collageName">SCM Institute of Engineering, Kolkata</div>
+                            <div class="educationDetails">Diploma(Automobile)</div>
+                            <div class="date">Jul 15 - Jun 18</div>                          
+                        </div>                        
+                </div>
+                <div class="degree">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div class="institute">
+                            <div class="collageName">Kendriya Vidyalaya No.2, Kanchrapara</div>
+                            <div class="educationDetails">Matriculation (Class X)</div>
+                            <div class="date">Apr 12 - Mar 13</div>                          
+                        </div>                        
+                </div>
+            </div>                            
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="skillscontainer" id="skills">
+    <div class="skillHeading">SKILLS</div>   
+    <div class="skills">
+        <div class="card">
+            <img src="image/webDev.jpg" alt="webdev">
+            <div class="info">
+                <h1>Web Development</h1>
+                <p>I specialize in developing dynamic websites with cutting-edge technologies, ensuring seamless functionality and optimal user experiences for your online presence.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/appdev.jpg" alt="appdev">
+            <div class="info">
+                <h1>App Development</h1>
+                <p>I create mobile apps that elevate user experiences through innovative design and seamless functionality, tailored to your unique requirements.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/uiux.jpg" alt="uiux">
+            <div class="info">
+                <h1>UI/UX</h1>
+                <p>I craft intuitive interfaces and immersive experiences, blending creativity with functionality to elevate digital interactions for optimal user engagement.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- project -->
+
+    <div class="skillscontainer1" id="project">
+        <div class="skillHeading">PROJECTS</div>   
+        <div class="skills">
+            <div class="card">
+                <img src="image/foodDelivery.jpg" alt="webdev">
+                <div class="info">
+                    <h1>Food Delivery</h1>
+                    <p>A food delivery website enables users to order meals online, providing access to a variety of cuisines, convenience, and doorstep delivery.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/movieTicketing.jpg" alt="appdev">
+                <div class="info">
+                    <h1>Movie Ticketing</h1>
+                    <p>A movie ticketing website allows users to book tickets online for films, offering convenience, seat selection, showtime information, and secure transactions.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/ecommerce.jpg" alt="uiux">
+                <div class="info">
+                    <h1>E-Commerce</h1>
+                    <p>An E-commerce website facilitates online buying and selling of goods or services, offering convenience, accessibility, secure transactions, and diverse product selections.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="contactDetails">
+            <div class="footerName">Subhankar Pal</div>
+            <div class="number">+91-9123635311</div>
+            <div class="email">subhankar.pal45@gmail.com</div>
+        </div>
+        <div class="footerSocial">
+            <a href="#"><i class="fa-brands fa-instagram d"></i></a>
+            <a href="#"><i class="fa-brands fa-github d"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin d"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp d"></i></a>
+        </div>
+        
+    </footer>
+
+
+    
+
+
+
+
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
